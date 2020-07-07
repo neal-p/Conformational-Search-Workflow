@@ -4,7 +4,7 @@ Automated conformational search workflow
 This workflow is designed to take any input structure and produce the lowest energy conformer. 
 In short, the program leverages CREST conformational search to produce conformers, re-ranks their energies based on DFT, then fully optimizes the 10 lowest energy conformers. 
 
-IMAGE HERE
+![Image of Workflow](workflow.png)
 
 BASIC USAGE:
 
