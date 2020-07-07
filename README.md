@@ -6,7 +6,6 @@ In short, the program leverages CREST conformational search to produce conformer
 
 IMAGE HERE
 
-
 BASIC USAGE:
 
     python3 autoconf.py <INPUT.xyz>    - sets up workflow structure
@@ -22,6 +21,7 @@ OUTPUT:
        
        after running
        
+       - status.txt containing calculation progress
        - lowest energy optimized conformer
        - INPUT-optimized-energies.txt containing energies of 10 optimized conformers
     
@@ -74,9 +74,9 @@ ADDITIONAL USAGE OPTIONS:
 
 DEPENDENCIES
 
-    CREST - 
-    Gaussian - 
-    ORCA - 
+    CREST - runs off CREST code located at /work/lopez/xtb/
+    Gaussian - runs off g16 version in g16root=/work/lopez/
+    ORCA - runs off ORCA_EXE=/work/lopez/orca_4_2_1_linux_x86-64_shared_openmpi216/
     
 
     
