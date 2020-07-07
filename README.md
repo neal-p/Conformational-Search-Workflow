@@ -1,4 +1,4 @@
-# Conformational_Search_Workflow
+# Conformational-Search-Workflow
 Automated conformational search workflow
 
 This workflow is designed to take any input structure and produce the lowest energy conformer. 
