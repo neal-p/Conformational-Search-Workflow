@@ -55,19 +55,24 @@ ADDITIONAL USAGE OPTIONS:
 
     Options:
       -h, --help            show this help message and exit
-      -c, --constrain       If the -c --constrain option is chosen, a file with
-                        the same basename as your input.xyz with the .c
-                        extension should be in the directory.        Ex if
-                        input is test.xyz, constraint file should be test.c
+      
+      -c, --constrain       If the -c --constrain option is chosen, a file with the same basename as your
+                            input.xyz with the .c extension should be in the directory.        
+                                Ex if input is test.xyz, constraint file should be test.c
+                            
       -q CHARGE, --charge=CHARGE
-                        Default: 0
+                            Default: 0
+                        
       -m MULTIPLICITY, --multiplicity=MULTIPLICITY
-                        Default: 1
+                            Default: 1
+                        
       -o OPTPROGRAM, --opt=OPTPROGRAM
-                        Availible programs are gaussian and orca, or none
-      -n, --nci             Specialized NCI run for CREST for non-covalent
-                        complexes
+                            Availible programs are gaussian and orca, or none
+                        
+      -n, --nci             Specialized NCI run for CREST for non-covalent complexes
+                        
       --sp                  Do only ORCA SP for energy rankings
+      
       --nog16fail           Automatically resubmit failed gaussian jobs
 
 
@@ -77,10 +82,3 @@ DEPENDENCIES
     CREST - runs off CREST code located at /work/lopez/xtb/
     Gaussian - runs off g16 version in g16root=/work/lopez/
     ORCA - runs off ORCA_EXE=/work/lopez/orca_4_2_1_linux_x86-64_shared_openmpi216/
-    
-
-    
-    
-    
-
-       
