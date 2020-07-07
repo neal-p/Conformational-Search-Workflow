@@ -37,7 +37,7 @@ Ex if input is test.xyz, constraint file should be test.c
 """
 usage = """
 
-"      AUTOCONF: A conformational search script based on CREST
+       AUTOCONF: A conformational search script based on CREST
        python3 %prog [inputfile] arg1 arg2...
 
 
