@@ -8,9 +8,11 @@ In short, the program leverages CREST conformational search to produce conformer
 
 BASIC USAGE:
 
-    python3 autoconf.py <INPUT.xyz>    - sets up workflow structure
+    python3 autoconf.py <INPUT.xyz>    - sets up workflow structure *
     
     bash INPUT/start.sh                - submits workflow
+    
+        *if the input file is not an xyz file, the code will attempt to use openbabel to convert to xyz
     
     
 OUTPUT:
